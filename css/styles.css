@@ -168,6 +168,7 @@ h3 {
     letter-spacing: 0.02px;
     max-width: 320px;
     height: 48px;
+    margin: 0 auto;
 
 
 }
@@ -943,4 +944,7 @@ margin-right: 8px;}
             border: none;
         fill: #F4F4FD;}
        .usemodal{background-color: #fcfcfc;}
+       @media screen and (min-width: 396px;) {.container{max-width: 426;}
+        
+       }
        
