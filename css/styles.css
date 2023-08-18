@@ -46,6 +46,7 @@ h3 {
     color: #434455;
     font-family: "Roboto", sans-serif;
     max-width:428px;
+    
 }
 
 .foterstyle {
@@ -152,6 +153,7 @@ h3 {
     display: none;
     
 }
+.sectiontwo{width: 1128px;}
 
 
 
@@ -338,7 +340,7 @@ h3 {
 }
 
 .container {
-    width: 1158px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
 
@@ -366,10 +368,11 @@ h3 {
 }
 
 .planlist {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: flex;
+
+    flex-wrap:wrap;
     gap: 72px;
+  
 }
 
 .listone {
@@ -379,6 +382,7 @@ h3 {
     list-style-type: none;
     display: flex;
 width: 396px;
+height: 624px;
 flex-direction: column;
 align-items: flex-start;
 gap: 8px;
