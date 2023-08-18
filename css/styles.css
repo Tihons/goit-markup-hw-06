@@ -944,7 +944,8 @@ margin-right: 8px;}
             border: none;
         fill: #F4F4FD;}
        .usemodal{background-color: #fcfcfc;}
-       @media screen and (min-width: 396px;) {.container{max-width: 426;}
-        
+       @media screen and (min-width: 396px)  {.container {max-width: 366;}
        }
+       @media screen and (min-width: 768px)  {.container {max-width: 738;}
+    }
        
