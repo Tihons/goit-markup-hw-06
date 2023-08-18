@@ -45,7 +45,6 @@ h3 {
     background-color: #FFFFFF;
     color: #434455;
     font-family: "Roboto", sans-serif;
-    max-width:428px;
     
 }
 
@@ -124,14 +123,13 @@ h3 {
 .titletwo {
 
     font-weight: 500;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue, #2E2F42);
     margin-bottom: 8px;
     margin: 0 auto;
-    max-height: 40px;
-}
+    }
 
 .titlethree {
     font-weight: 500;
@@ -161,13 +159,12 @@ h3 {
 
 .listparagraph {
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; 
-    letter-spacing: 0.02px;
-    max-width: 320px;
-    height: 48px;
+    letter-spacing: 0.02em;
+
     margin: 0 auto;
 
 
@@ -370,7 +367,7 @@ h3 {
 }
 
 .sectiontwo {
-    padding: 96px 16px;
+    padding: 96px 0;
 }
 
 .planlist {
@@ -388,8 +385,8 @@ flex-direction: column;
     list-style-type: none;
     
     display: flex;
-width: 396px;
-height: 112px;
+width: 100%;
+
 flex-direction: column;
 align-items: flex-start;
 gap: 8px;
@@ -944,8 +941,8 @@ margin-right: 8px;}
             border: none;
         fill: #F4F4FD;}
        .usemodal{background-color: #fcfcfc;}
-       @media screen and (min-width: 396px)  {.container {max-width: 366;}
+       @media screen and (min-width: 428px)  {.container {max-width: 428px;}
        }
-       @media screen and (min-width: 768px)  {.container {max-width: 738;}
+       @media screen and (min-width: 768px)  {.container {max-width: 768px;}
     }
        
