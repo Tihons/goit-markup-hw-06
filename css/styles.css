@@ -127,8 +127,10 @@ h3 {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--navyblue, #2E2F42);
     margin-bottom: 8px;
+    margin: 0 auto;
+    max-height: 40px;
 }
 
 .titlethree {
@@ -153,17 +155,19 @@ h3 {
     display: none;
     
 }
-.sectiontwo{width: 1128px;}
+
 
 
 
 .listparagraph {
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; 
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02px;
+    max-width: 320px;
+    height: 48px;
 
 
 }
@@ -340,9 +344,10 @@ h3 {
 }
 
 .container {
-    max-width: 1158px;
+  width:100%;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 16px 0 16px;
+    
 
 
 }
@@ -364,25 +369,26 @@ h3 {
 }
 
 .sectiontwo {
-    padding: 120px 0;
+    padding: 96px 16px;
 }
 
 .planlist {
     display: flex;
-
+flex-direction: column;
     flex-wrap:wrap;
     gap: 72px;
   
 }
 
 .listone {
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: 100%;
     padding: 0;
     margin: 0;
     list-style-type: none;
+    
     display: flex;
 width: 396px;
-height: 624px;
+height: 112px;
 flex-direction: column;
 align-items: flex-start;
 gap: 8px;
