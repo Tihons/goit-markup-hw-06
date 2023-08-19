@@ -128,7 +128,7 @@ h3 {
     letter-spacing: 0.02em;
     color: var(--navyblue, #2E2F42);
     margin-bottom: 8px;
-    margin: 0 auto;
+    
     }
 
 .titlethree {
@@ -150,7 +150,7 @@ h3 {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
-    display: none;
+    display: block;
     
 }
 
@@ -384,12 +384,7 @@ flex-direction: column;
     margin: 0;
     list-style-type: none;
     
-    display: flex;
-width: 100%;
-
-flex-direction: column;
-align-items: flex-start;
-gap: 8px;
+    
 }
 
 .sectionthree {
@@ -942,11 +937,16 @@ margin-right: 8px;}
         fill: #F4F4FD;}
        .usemodal{background-color: #fcfcfc;}
        @media screen and (min-width: 428px)  {.container {max-width: 428px;}
+       .titletwo{margin: 0 auto;}
        }
-       @media screen and (min-width: 768px)  {.container {max-width: 736px;
-    max-height: 312px;}
-       .listeone{width: calc((100% - 88px) / 2 );
+       @media screen and (min-width: 768px)  {.container {max-width: 768px;
+   }
+       .listone{width: calc((100% - 24px) / 2 );
     max-width: 356px;
-height: 120px;}
+
+}.titletwo{text-align: left;
+margin: 0;}
+.planlist{flex-direction: row;
+gap: 72px 24px;}
     }
        
