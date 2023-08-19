@@ -943,8 +943,10 @@ margin-right: 8px;}
        .usemodal{background-color: #fcfcfc;}
        @media screen and (min-width: 428px)  {.container {max-width: 428px;}
        }
-       @media screen and (min-width: 768px)  {.container {max-width: 768px;}
+       @media screen and (min-width: 768px)  {.container {max-width: 736px;
+    max-height: 312px;}
        .listeone{width: calc((100% - 88px) / 2 );
-    min-height: 356px;}
+    max-width: 356px;
+height: 120px;}
     }
        
