@@ -22,6 +22,13 @@
           .listitemtwo{max-width: 264px;
         max-height: 396px;
     margin: 0 auto;}
+    .custlist{width: calc((100% - 16px) / 3);
+    width: 190px;
+}
+    .custul{flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 16px;}
+    .titleone{width: 320;}
 
       }
 
@@ -55,6 +62,12 @@
               flex-direction: row;
               gap: 72px 24px;
           }
+          .custul{flex-wrap: wrap;
+            flex-direction: row;
+            gap: 72px 24px;}
+            .custlist{width: calc((100% - 16px) / 2);
+            width: 168px;
+        margin: 0 auto;}
       }
 
       @media screen and (min-width: 1158px) {
@@ -83,4 +96,16 @@
               gap: 24px;
               flex-wrap: nowrap;
           }
+          .custul{
+            gap:  24px;
+            display: flex;
+            min-width: 1128px;
+ 
+            list-style-type: none;}
+            .custlist{
+                max-width: 168px;
+
+            margin: 0 ;}
+           
+               
       }
