@@ -125,8 +125,18 @@
               margin-top: 16px;
               margin-left: 115px;
           }
-          .buttontwo{width: 263px;}
+          
           .manyphotos{width: 396px;}
+          .listlist{width: 428px;
+        gap: 24px 16px;
+    flex-direction: column;}
+    .one{width: 53px;
+    text-align: center;}
+    .two{width: 100px;}
+    .three{}
+    .four{}
+    .five{}
+
 
       }
 
