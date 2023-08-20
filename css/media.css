@@ -3,6 +3,17 @@
               max-width: 428px;
           }
 
+          .mobile-menu {
+              background: var(--white, #FFF);
+              box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+              ;
+              width: 428px;
+              height: 796px;
+          }
+          .mobilebtn{background-color: blue;
+        width: 40px;
+    height: 40px;}
+
           .titletwo {
               margin: 0 auto;
           }
@@ -90,10 +101,15 @@
               margin: 0;
           }
 
-         
-          .input{width: 398px;}
-          .foterbtn{margin-top: 16px;
-        margin-left: 115px;}
+
+          .input {
+              width: 398px;
+          }
+
+          .foterbtn {
+              margin-top: 16px;
+              margin-left: 115px;
+          }
 
 
       }
@@ -102,7 +118,10 @@
           .container {
               max-width: 768px;
           }
-        
+
+          .container.vipcontainer {
+              max-width: 584px;
+          }
 
           .divtwo {
               display: none;
@@ -159,11 +178,24 @@
           .button {
               margin-top: 36px;
           }
-         .soneone{display: flex;}
-         .foterdiv{margin: 0;}
-         .logotypetwo{margin-left: 108px;}
-         .paragraph{
-        margin-left: 108px;}
+
+          .foterdiv {
+              margin: 0;
+              display: flex;
+          }
+
+          .logotypetwo {
+              margin-left: 108px;
+          }
+
+          .paragraph {
+              margin-left: 108px;
+          }
+
+          .lake {
+              display: flex;
+              flex-wrap: wrap;
+          }
       }
 
 
@@ -172,6 +204,10 @@
           .container {
               max-width: 1128px;
               margin: 0 auto;
+          }
+
+          .container.vipcontainer {
+              max-width: 1158px;
           }
 
           .titletwo {
@@ -224,5 +260,37 @@
           .sectionone {
               background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/officephoto.jpg);
           }
+
+          .form {
+              display: flex;
+              gap: 24px;
+          }
+
+          .foterbtn {
+              margin: 0;
+          }
+
+          .input {
+              width: 264px;
+              margin-left: 80px;
+          }
+
+          .paragraph {
+              margin: 0;
+          }
+
+          .logotypetwo {
+              margin: 0;
+          }
+
+          .okean {
+              margin: 0;
+          }
+
+          .more {
+              margin-left: 80px;
+              text-align: left;
+          }
+
 
       }

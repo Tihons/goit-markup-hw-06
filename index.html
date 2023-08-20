@@ -18,7 +18,7 @@
 </head>
 
 <body class="body">
-    <!-- <header class="header">
+    <header class="header">
         <div class="div container">
             <nav class="nav">
                 <a class="logotype link" href="./index.html">Web<span class="spantwo">Studio</span>
@@ -36,7 +36,8 @@
                 </ul>
             </address>
         </div>
-    </header> -->
+        <div><button class="js-open-menu " type="submit"> mobile-menu</button> </div>
+    </header>
     <main>
          <section class="sectionone">
             <div class="container">
@@ -111,7 +112,7 @@
             </div>
         </section>
         <section class="sectionfour">
-            <div class="container">
+            <div class="container vipcontainer">
                 <h2 class="team">Our Team</h2>
                 <ul class="planlist list">
                     <li class="listitemtwo">
@@ -220,7 +221,7 @@
 
         </section>
         <section class="section">
-            <div class="container">
+            <div class="container vipcontainer">
                 <h2 class="cust">Customers</h2>
                 <ul class="custul">
                     <li class="custlist"><a class="custlink" href=""> <svg class="custsvg" width="104" height="56">
@@ -259,8 +260,8 @@
     </main>
 
     <footer class="foterstyle">
-        <div class="foterdiv container ">
-            <div class="okean">
+        <div class="foterdiv container vipcontainer ">
+            <div class="okean bbb">
                 <a class="logotypetwo  link" href="./index.html">Web<span class="span">Studio</span></a>
                 <p class="paragraph"> Increase the flow of customers and sales for your business with digital marketing
                     &
@@ -268,7 +269,7 @@
                     solutions.</p>
             </div>
 
-            <div class="sonesone" >
+            <div class="sonesone bbb" >
                 <p class="meduza">Social media</p>
                 <ul class="soneul">
                     <li class="soneone"> <a class="sonelinktwo" href=""><svg class="sonesvg" height="24" width="24">
@@ -285,7 +286,7 @@
                             </svg></a></li>
                 </ul>
             </div>
-            <div class="lake">
+            <div class="lake ">
                 <p class="more">Subscribe</p>
                 <form class="form">
                     <label class="label">
@@ -354,7 +355,15 @@
             </form>
         </div>
     </div>
+    <div class="js-menu-container"></div>
     <script src="./js/modal.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
 </body>
 
 </html>
