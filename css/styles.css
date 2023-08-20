@@ -46,6 +46,7 @@ h3 {
     background-color: #FFFFFF;
     color: #434455;
     font-family: "Roboto", sans-serif;
+ 
     
 }
 
@@ -464,7 +465,7 @@ flex-direction: column;
 
 .photolist {
     flex-wrap: wrap;
-    display: flex;
+    
     column-gap: 24px;
     row-gap: 48px;
 }
