@@ -3,19 +3,33 @@
               max-width: 428px;
           }
 
-          .mobile-menu {
-              background: var(--white, #FFF);
-              box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-              ;
-              width: 428px;
-              height: 796px;
+          .menu-toggle {
+              display: block;
           }
 
-          .mobilebtn {
-              background-color: blue;
-              width: 40px;
-              height: 40px;
+          .menu-toggle:focus {
+              background-color: rgba(0, 0, 0, 0);
           }
+
+          .mobilemenu {
+              position: fixed;
+              top: 0;
+              width: 100vw;
+              left: 0;
+              height: 100vh;
+              padding: 32px;
+              background: var(--white, #FFF);
+box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+
+              z-index: 999;
+              transition: transform 250ms ease-in-out;
+          }
+
+          .burger {
+              stroke: var(--navyblue, #2E2F42);
+          }
+
+
 
           .address {
               display: none;
@@ -25,9 +39,7 @@
               display: none;
           }
 
-          .burger {
-              background-color: aqua;
-          }
+
 
           .titletwo {
               margin: 0 auto;
@@ -125,12 +137,17 @@
               margin-top: 16px;
               margin-left: 115px;
           }
-          
-          .manyphotos{width: 396px;}
-          .listlist{width: 428px;
-        gap: 24px 16px;
-    flex-direction: column;}
-  
+
+          .manyphotos {
+              width: 396px;
+          }
+
+          .listlist {
+              width: 428px;
+              gap: 24px 16px;
+              flex-direction: column;
+          }
+
 
 
       }
