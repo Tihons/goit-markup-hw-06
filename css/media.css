@@ -14,9 +14,9 @@
           .mobilemenu {
               position: fixed;
               top: 0;
-              width: 100vw;
+              width: 428px;
               left: 0;
-              height: 100vh;
+              height: 796px;
               padding: 32px;
               background: var(--white, #FFF);
               box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -25,15 +25,19 @@
               opacity: 0;
               visibility: hidden;
               pointer-events: none;
+
           }
-          .mobilemenu.is-open{opacity: 1;
-            visibility: visible;
-            pointer-events: initial;}
-          .burger {
-              stroke: var(--navyblue, #2E2F42);
+
+          .mobilemenu.is-open {
+              opacity: 1;
+              visibility: visible;
+              pointer-events: initial;
           }
 
 
+          .current {
+              display: block;
+          }
 
           .address {
               display: none;
@@ -43,6 +47,20 @@
               display: none;
           }
 
+          .menumenu {
+              color: var(--navyblue, #2E2F42);
+              font-family: Roboto;
+              font-size: 36px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 40px;
+              letter-spacing: 0.72px;
+              text-transform: capitalize;
+              height: 200px;
+              width: 151px;
+              padding: 0;
+              margin: 0;
+          }
 
 
           .titletwo {
@@ -152,8 +170,49 @@
               flex-direction: column;
           }
 
+          .mobilebtn {
+              stroke: var(--navyblue, #2E2F42);
+          }
 
+          .headerlink {
+              font-family: Roboto;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 40px;
+              letter-spacing: 0.02px;
+              text-transform: capitalize;
+              margin-top: 32px;
+              margin: 0;
+          }
 
+          .addresstwo {
+              display: block;
+              margin-top: 284px;
+          }
+
+          .connection {
+              display: block;
+          }
+
+          .tel {
+              font-family: Roboto;
+              font-size: 36px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 40px;
+              letter-spacing: 0.72px;
+              text-transform: capitalize;
+              color: var(--IRIS, #4D5AE5);
+              margin-bottom: 40px;
+          }
+          .mailone{font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            letter-spacing: 0.4px;
+            color: var(--SLATE, #434455);}
       }
 
       @media screen and (min-width: 768px) {
@@ -247,6 +306,9 @@
               max-width: 1128px;
               margin: 0 auto;
           }
+          .menu {
+            display: block;
+        }
 
           .container.vipcontainer {
               max-width: 1158px;

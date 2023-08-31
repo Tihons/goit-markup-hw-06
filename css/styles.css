@@ -274,14 +274,6 @@ h3 {
 
 }
 
-.tel {
-    position: relative;
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 
 
@@ -365,6 +357,12 @@ h3 {
     display: flex;
     gap: 40px;
 
+}
+.menumenu {
+   
+    gap: 40px;
+    width: 428px;
+    height: 796px;
 }
 
 .connection {
@@ -734,7 +732,7 @@ flex-direction: column;
 }
 
 .portfolio {
-    position: relative;
+    
     color: #404bbf;
 }
 
