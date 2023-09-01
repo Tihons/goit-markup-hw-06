@@ -1,6 +1,13 @@
       @media screen and (min-width: 320px) {
           .container {
               max-width: 428px;
+
+          }
+
+          .foterdiv {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
           }
 
           .menu-toggle {
@@ -16,7 +23,7 @@
               top: 0;
               width: 100%;
               left: 0;
-              height: 796px;
+              height: 100%;
               padding: 32px;
               background: var(--white, #FFF);
               box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
@@ -103,9 +110,10 @@
           }
 
           .titleone {
-              width: 320px;
+              
               font-size: 36px;
           }
+          .mobilepx{max-width: 320px;}
 
           .sectionthree {
               display: none;
@@ -116,14 +124,16 @@
           }
 
           .logotypetwo {
-              width: 117px;
-              margin-left: 145px;
+
               margin-bottom: 17.5px;
+              display: block;
+              margin-left: 0 auto;
+              margin-right: 0 auto;
+              text-align: center;
           }
 
           .paragraph {
-              margin-left: 80px;
-              width: 268px;
+
               margin-top: 17.5px;
           }
 
@@ -135,33 +145,33 @@
           }
 
           .meduza {
-              margin-top: 72px;
+
               text-align: center;
           }
 
           .soneul {
-              margin-left: 95px;
 
-              width: 208px;
+              height: 40px;
+
           }
 
           .more {
-              margin-top: 72px;
+
               text-align: center;
           }
 
           .lake {
-              margin: 0;
+              margin-top: 72px;
+              width: 100%;
           }
 
 
           .input {
-              min-width: 398px;
+              width: 100%;
           }
 
           .foterbtn {
-              margin-top: 16px;
-              margin-left: 115px;
+              margin: 16px auto 0;
           }
 
           .manyphotos {
@@ -224,6 +234,10 @@
               line-height: 24px;
               letter-spacing: 0.4px;
               color: var(--SLATE, #434455);
+          }
+
+          .sonesone {
+              margin-top: 72px;
           }
       }
 
@@ -449,5 +463,8 @@
           .menu {
               display: flex;
           }
-          .container.vipcontainer{flex-wrap: nowrap;}
+
+          .container.vipcontainer {
+              flex-wrap: nowrap;
+          }
       }
