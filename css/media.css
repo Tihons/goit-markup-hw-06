@@ -234,7 +234,7 @@
 
           .container.vipcontainer {
               max-width: 584px;
-              flex-wrap: wrap;
+              
           }
 
           .meduza {
@@ -430,10 +430,11 @@
 
           .logotypetwo {
               margin: 0;
+              margin-bottom: 17.5px;
           }
 
           .okean {
-              margin: 0;
+              margin-right:120px ;
           }
 
           .more {
@@ -448,5 +449,5 @@
           .menu {
               display: flex;
           }
-
+          .container.vipcontainer{flex-wrap: nowrap;}
       }
