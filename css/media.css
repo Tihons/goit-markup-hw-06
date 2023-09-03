@@ -3,7 +3,7 @@
               max-width: 428px;
 
           }
-
+          .modalwindow{max-width: 408px;}
           .custul {
               justify-content: center
           }
@@ -17,7 +17,8 @@
               background: var(--WHITE, #FFF);
               padding: 0 auto;
               justify-content: left;
-              border: none; background-color: transparent;
+              border: none;
+              background-color: transparent;
 
           }
 
@@ -42,7 +43,11 @@
               letter-spacing: 1.12px;
               margin: 0 auto;
           }
-.mobilepx{display: none;}
+
+          .mobilepx {
+              display: none;
+          }
+
           .con {
               margin: 0;
           }
@@ -73,7 +78,8 @@
               opacity: 0;
               visibility: hidden;
               pointer-events: none;
-              display: flex; flex-direction: column;
+              display: flex;
+              flex-direction: column;
 
           }
 
@@ -109,17 +115,16 @@
               height: 200px;
               width: 100%;
               padding: 80px 0 0 40px;
-            
+
               display: inline-flex;
               flex-direction: column;
               align-items: flex-start;
               gap: 40px
-            
           }
 
 
           .titletwo {
-           text-align: center;
+              text-align: center;
           }
 
           .divtwo {
@@ -127,7 +132,7 @@
           }
 
           .listone {
-              
+
               width: 100%;
 
               flex-direction: column;
@@ -137,10 +142,10 @@
 
           .listitemtwo {
               max-width: 264px;
-              max-height: 396px;
+
               margin: 0 auto;
           }
-
+.listparagraphtwo{margin-bottom: 8px;}
           .custlist {
               width: calc((100% - 16px) / 3);
               width: 190px;
@@ -221,15 +226,10 @@
               margin: 16px auto 0;
           }
 
-          .manyphotos {
-              width: 396px;
-          }
 
-          .listlist {
-              width: 428px;
-              gap: 24px 16px;
-              flex-direction: column;
-          }
+
+
+
 
           .mobilebtn {
               stroke: var(--navyblue, #2E2F42);
@@ -256,7 +256,11 @@
               max-width: 328px;
               justify-content: space-between;
           }
-.mobileli{margin-bottom: 40px;}
+
+          .mobileli {
+              margin-bottom: 40px;
+          }
+
           .addresstwo {
               display: block;
 
@@ -281,8 +285,12 @@
               letter-spacing: 0.72px;
               text-transform: capitalize;
               color: var(--IRIS, #4D5AE5);
-           
-              
+
+
+          }
+
+          .sectionfour {
+              padding: 96px 0 0 0;
           }
 
           .mailone {
@@ -305,13 +313,13 @@
               max-width: 1158px;
           }
 
-         
+
 
           .container.vipcontainer {
               max-width: 584px;
               flex-wrap: wrap;
           }
-
+.modalwindow{  width: 408px;}
           .nav {
               justify-content: start;
           }
@@ -343,7 +351,7 @@
           }
 
           .headerlink {
-            position: relative;
+              position: relative;
               font-family: Roboto;
               font-size: 16px;
               font-style: normal;
@@ -461,9 +469,11 @@
               max-width: 1128px;
               margin: 0 auto;
           }
+
           .input {
-            width:264px;
-        }
+              width: 264px;
+          }
+
           .menu {
               display: block;
           }
@@ -566,15 +576,24 @@
           .container.vipcontainer {
               flex-wrap: nowrap;
           }
-          .titleone{padding: 188px 0 292px;
-            font-family: Roboto;
-            font-size: 56px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 60px; 
-            letter-spacing: 1.12px;}
-            .address{display: flex;
-            display: block none;}
-            .button{width: 169px;
-            height: 56px;}
+
+          .titleone {
+              padding: 188px 0;
+              font-family: Roboto;
+              font-size: 56px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 60px;
+              letter-spacing: 1.12px;
+          }
+
+          .address {
+              display: flex;
+              display: block none;
+          }
+
+          .button {
+              width: 169px;
+              height: 56px;
+          }
       }
