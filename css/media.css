@@ -3,13 +3,17 @@
               max-width: 428px;
 
           }
-          .modalwindow{max-width: 408px;}
+
+          .modalwindow {
+              max-width: 408px;
+          }
+
           .custul {
               justify-content: center
           }
 
           .nav {
-              justify-content: space-between;
+              
               width: 100%;
           }
 
@@ -145,7 +149,11 @@
 
               margin: 0 auto;
           }
-.listparagraphtwo{margin-bottom: 8px;}
+
+          .listparagraphtwo {
+              margin-bottom: 8px;
+          }
+
           .custlist {
               width: calc((100% - 16px) / 3);
               width: 190px;
@@ -314,18 +322,33 @@
           }
 
 
+          .sonesone {
+              margin-left: 24px;
+          }
+
+          .input {
+              min-width: 264px;
+          }
 
           .container.vipcontainer {
               max-width: 584px;
               flex-wrap: wrap;
           }
-.modalwindow{  width: 408px;}
+
+          .modalwindow {
+              width: 408px;
+          }
+
           .nav {
               justify-content: start;
           }
 
           .burger {
               display: none;
+          }
+
+          .sectiontwo {
+              justify-content: center;
           }
 
           .address {
@@ -346,7 +369,7 @@
 
           .meduza {
               margin-top: 0;
-              margin-left: 24px;
+            
               text-align: left;
           }
 
@@ -430,10 +453,15 @@
           .foterdiv {
               margin: 0 auto;
               display: flex;
+              justify-content: left;
           }
 
           .logotypetwo {
-              margin-left: 0;
+              text-align: left;
+          }
+
+          .footerstyle {
+              padding: 97.5px 0 0 0;
           }
 
           .paragraph {
@@ -444,9 +472,7 @@
               margin-left: 0;
           }
 
-          .soneul {
-              margin-left: 24px;
-          }
+      
 
           .lake {
 
@@ -477,7 +503,7 @@
           .menu {
               display: block;
           }
-
+.meduza{margin-right: 0;}
           .container.vipcontainer {
               max-width: 1158px;
           }
@@ -485,15 +511,19 @@
           .titletwo {
               margin-top: 8px;
           }
-
+          .sonesone {
+            margin-left: 0;
+        }
           .listone {
               min-width: 264px;
           }
-
+          .connection{display: flex;}
           .listparagraph {
               max-height: 72px;
           }
-
+          .okean {
+          min-width: 264px;
+        margin-right:120px ;}
           .divtwo {
               display: flex;
               align-items: center;
@@ -541,7 +571,7 @@
           .foterbtn {
               margin: 0;
           }
-
+.nav{max-width:452px ;}
           .input {
               width: 264px;
               margin-left: 80px;
@@ -556,13 +586,11 @@
               margin-bottom: 17.5px;
           }
 
-          .okean {
-              margin: 0;
-          }
-
+        
           .more {
               margin-left: 80px;
               text-align: left;
+              margin-bottom: 16px;
           }
 
           .address {
@@ -596,4 +624,5 @@
               width: 169px;
               height: 56px;
           }
+          .manyphotos{margin: 0;}
       }
