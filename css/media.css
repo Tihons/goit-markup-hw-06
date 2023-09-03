@@ -17,6 +17,7 @@
               background: var(--WHITE, #FFF);
               padding: 0 auto;
               justify-content: left;
+              border: none; background-color: transparent;
 
           }
 
@@ -72,6 +73,7 @@
               opacity: 0;
               visibility: hidden;
               pointer-events: none;
+              display: flex; flex-direction: column;
 
           }
 
@@ -84,6 +86,7 @@
 
           .current {
               display: block;
+              background-color: #FFF;
           }
 
           .address {
@@ -106,11 +109,12 @@
               height: 200px;
               width: 100%;
               padding: 0;
-              margin-top: 32px;
+              margin-bottom:284px ;
               display: inline-flex;
               flex-direction: column;
               align-items: flex-start;
               gap: 40px
+            
           }
 
 
@@ -267,11 +271,12 @@
 
           .connection {
               display: block;
+              gap: 40px;
           }
 
           .tel {
               font-family: Roboto;
-              font-size: 36px;
+              font-size: 35px;
               font-style: normal;
               font-weight: 700;
               line-height: 40px;
@@ -279,6 +284,7 @@
               text-transform: capitalize;
               color: var(--IRIS, #4D5AE5);
               margin-bottom: 40px;
+              
           }
 
           .mailone {
@@ -331,6 +337,7 @@
 
           .logotype {
               margin: 0;
+              margin-right: 120px;
           }
 
           .meduza {
@@ -455,7 +462,9 @@
               max-width: 1128px;
               margin: 0 auto;
           }
-
+          .input {
+            width:264px;
+        }
           .menu {
               display: block;
           }
