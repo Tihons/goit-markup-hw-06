@@ -4,14 +4,54 @@
 
           }
 
+          .custul {
+              justify-content: center
+          }
+
+          .nav {
+              justify-content: space-between;
+              width: 100%;
+          }
+
+          .burger {
+              background: var(--WHITE, #FFF);
+              padding: 0 auto;
+              justify-content: left;
+
+          }
+
+          .sectionone {
+              padding: 112px 0;
+          }
+
           .foterdiv {
               display: flex;
               flex-wrap: wrap;
               justify-content: center;
           }
 
+          .titleone {
+              text-align: center;
+
+              font-family: Roboto;
+              font-size: 56px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 60px;
+              letter-spacing: 1.12px;
+              margin: 0 auto;
+          }
+.mobilepx{display: none;}
+          .con {
+              margin: 0;
+          }
+
           .menu-toggle {
               display: block;
+              justify-content: right;
+              width: 42px;
+              margin: 0;
+              height: 42px;
           }
 
           .menu-toggle:focus {
@@ -64,7 +104,7 @@
               letter-spacing: 0.72px;
               text-transform: capitalize;
               height: 200px;
-              width: 151px;
+              width: 100%;
               padding: 0;
               margin-top: 32px;
               display: inline-flex;
@@ -110,10 +150,13 @@
           }
 
           .titleone {
-              
+
               font-size: 36px;
           }
-          .mobilepx{max-width: 320px;}
+
+          .mobilepx {
+              max-width: 320px;
+          }
 
           .sectionthree {
               display: none;
@@ -201,13 +244,25 @@
               padding: 0;
           }
 
+          .sone {
+              width: 100%;
+          }
+
+          .specsone {
+              max-width: 328px;
+              justify-content: space-between;
+
+              margin: 0 auto;
+          }
+
           .addresstwo {
               display: block;
-              margin-top: 284px;
+
               display: inline-flex;
               flex-direction: column;
               align-items: flex-start;
               gap: 40px;
+              margin: auto;
           }
 
           .connection {
@@ -246,15 +301,51 @@
               max-width: 1158px;
           }
 
+          .header {
+              height: 72px;
+          }
+
           .container.vipcontainer {
               max-width: 584px;
               flex-wrap: wrap;
+          }
+
+          .nav {
+              justify-content: start;
+          }
+
+          .burger {
+              display: none;
+          }
+
+          .address {
+              display: block;
+          }
+
+          .menu {
+              display: flex;
+              margin-left: 0;
+
+
+          }
+
+          .logotype {
+              margin: 0;
           }
 
           .meduza {
               margin-top: 0;
               margin-left: 24px;
               text-align: left;
+          }
+
+          .headerlink {
+              font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px;
+              letter-spacing: 0.32px;
           }
 
           .divtwo {
