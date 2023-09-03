@@ -180,7 +180,7 @@
           }
 
           .sectionone {
-              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/officephotomin.jpg);
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@1x\ mob.jpg);
           }
 
           .logotypetwo {
@@ -437,7 +437,7 @@
           }
 
           .sectionone {
-              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/officephotomidl.jpg);
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@1x\ tub.jpg);
           }
 
           .titleone {
@@ -560,7 +560,7 @@
           }
 
           .sectionone {
-              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/officephoto.jpg);
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@1x\ tub.jpg);
           }
 
           .form {
@@ -626,3 +626,13 @@
           }
           .manyphotos{margin: 0;}
       }
+      @media(min-resolution:192dpi),(min-width: 320px){ .sectionone {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x\ mob.jpg);
+    }}
+   
+    @media(min-resolution:192dpi),(min-width: 768px){ .sectionone {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1@2x\ desk.jpg);
+    }}
+    @media(min-resolution:192dpi),(min-width: 1158px){ .sectionone {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x\ tub.jpg);
+    }}
