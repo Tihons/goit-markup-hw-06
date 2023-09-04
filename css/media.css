@@ -338,6 +338,7 @@
           .container.vipcontainer {
               max-width: 552px;
               flex-wrap: wrap;
+              padding: 0;
           }
 .custlist{margin: 0;}
           .modalwindow {
