@@ -4,6 +4,10 @@
 
           }
 
+          .kincong {
+              padding: 0 0 96px 0;
+          }
+
           .modalwindow {
               max-width: 408px;
           }
@@ -13,16 +17,17 @@
           }
 
           .nav {
-              
+
               width: 100%;
           }
 
           .burger {
               background: var(--WHITE, #FFF);
-              padding: 0 auto;
+              padding: 24px 0 24px;
               justify-content: left;
               border: none;
               background-color: transparent;
+              width: 32px;
 
           }
 
@@ -39,12 +44,12 @@
           .titleone {
               text-align: center;
 
-              font-family: Roboto;
+
               font-size: 56px;
               font-style: normal;
               font-weight: 700;
               line-height: 60px;
-              letter-spacing: 1.12px;
+              letter-spacing: 0.72px;
               margin: 0 auto;
           }
 
@@ -114,12 +119,9 @@
               font-style: normal;
               font-weight: 700;
               line-height: 40px;
-              letter-spacing: 0.72px;
               text-transform: capitalize;
-              height: 200px;
-              width: 100%;
-              padding: 80px 0 0 40px;
-
+              padding: 80px 0 0;
+              letter-spacing: 0.72px;
               display: inline-flex;
               flex-direction: column;
               align-items: flex-start;
@@ -185,7 +187,7 @@
 
           .logotypetwo {
 
-              margin-bottom: 17.5px;
+
               display: block;
               margin-left: 0 auto;
               margin-right: 0 auto;
@@ -286,7 +288,7 @@
 
           .tel {
               font-family: Roboto;
-              font-size: 35px;
+              font-size: 25px;
               font-style: normal;
               font-weight: 700;
               line-height: 40px;
@@ -369,7 +371,7 @@
 
           .meduza {
               margin-top: 0;
-            
+
               text-align: left;
           }
 
@@ -390,7 +392,7 @@
           }
 
           .more {
-              margin: 0;
+
               text-align: left;
           }
 
@@ -472,7 +474,7 @@
               margin-left: 0;
           }
 
-      
+
 
           .lake {
 
@@ -486,44 +488,99 @@
           .foterbtn {
               margin: 0;
           }
+
+          .teltwo {
+              margin-top: 12px;
+          }
+
+          .sonesone {
+              margin-top: 0;
+          }
       }
 
 
 
       @media screen and (min-width: 1158px) {
           .container {
-              max-width: 1128px;
+              max-width: 1440px;
               margin: 0 auto;
           }
 
           .input {
               width: 264px;
+              
+          }
+
+          .listik {
+              max-width: 360px;
+              ;
+          }
+
+          .titletwo {
+              margin: 0;
+
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px;
+              letter-spacing: 0.4px;
+          }
+
+          .sectionone {
+              padding: 188px 0;
+          }
+
+          .lake {
+              margin-top: 0;
+              margin-left: 80px;
           }
 
           .menu {
               display: block;
           }
-.meduza{margin-right: 0;}
+
+          .sectiontwo {
+              padding: 120px 0;
+          }
+
+          .meduza {
+              margin-right: 0;
+          }
+
           .container.vipcontainer {
               max-width: 1158px;
           }
 
-          .titletwo {
-              margin-top: 8px;
-          }
+
+
           .sonesone {
-            margin-left: 0;
-        }
+              margin-left: 0;
+          }
+
           .listone {
               min-width: 264px;
+
           }
-          .connection{display: flex;}
+
+          .connection {
+              display: flex;
+          }
+
           .listparagraph {
               max-height: 72px;
+
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0.32px;
           }
+
           .okean {
-          min-width: 264px;
-        margin-right:120px ;}
+              min-width: 264px;
+              margin-right: 120px;
+          }
+.teltwo{margin-top: 0;}
           .divtwo {
               display: flex;
               align-items: center;
@@ -532,7 +589,7 @@
               height: 112px;
               background-color: #f4f4fd;
               border-radius: 4px;
-              margin-bottom: 8px;
+              margin: 0;
           }
 
           .planlist {
@@ -541,6 +598,16 @@
               flex-wrap: nowrap;
           }
 
+          .planlisttwo {
+              justify-content: center;
+              gap: 24px;
+          }
+          .photolist {
+            flex-wrap: wrap;
+        
+            column-gap: 24px;
+            row-gap: 48px;
+        }
           .custul {
               gap: 24px;
               display: flex;
@@ -571,10 +638,14 @@
           .foterbtn {
               margin: 0;
           }
-.nav{max-width:452px ;}
+
+          .nav {
+              max-width: 452px;
+          }
+
           .input {
               width: 264px;
-              margin-left: 80px;
+             
           }
 
           .paragraph {
@@ -586,9 +657,9 @@
               margin-bottom: 17.5px;
           }
 
-        
+
           .more {
-              margin-left: 80px;
+
               text-align: left;
               margin-bottom: 16px;
           }
@@ -606,7 +677,7 @@
           }
 
           .titleone {
-              padding: 188px 0;
+
               font-family: Roboto;
               font-size: 56px;
               font-style: normal;
@@ -624,15 +695,29 @@
               width: 169px;
               height: 56px;
           }
-          .manyphotos{margin: 0;}
+
+          .manyphotos {
+              margin: 0;
+          }
       }
-      @media(min-resolution:192dpi),(min-width: 320px){ .sectionone {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x\ mob.jpg);
-    }}
-   
-    @media(min-resolution:192dpi),(min-width: 768px){ .sectionone {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1@2x\ desk.jpg);
-    }}
-    @media(min-resolution:192dpi),(min-width: 1158px){ .sectionone {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x\ tub.jpg);
-    }}
+
+      @media(min-resolution:192dpi),
+      (min-width: 320px) {
+          .sectionone {
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x\ mob.jpg);
+          }
+      }
+
+      @media(min-resolution:192dpi),
+      (min-width: 768px) {
+          .sectionone {
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1@2x\ desk.jpg);
+          }
+      }
+
+      @media(min-resolution:192dpi),
+      (min-width: 1158px) {
+          .sectionone {
+              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg@2x\ tub.jpg);
+          }
+      }
